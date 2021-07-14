@@ -11,6 +11,7 @@ body{
     background: #2D25A0;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 .topper .name{
@@ -52,6 +53,7 @@ height: 24px;
 }
 
 .topper .model{
+    padding-bottom: 200px;
     Width: 556.01px;
     Height: 438px;
  
