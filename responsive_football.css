@@ -31,6 +31,9 @@ body{
     width: 168px;
     height: 44px;
 }
+.live:hover{
+    background-color: black;
+}
 
 .name .live .align{
     Padding:10px 24px 10px 24px;
@@ -123,3 +126,47 @@ font-family: 'Niconne', cursive;
     height: 32px;
     width: 32px;
 }
+@media only screen and (max-width:688px) 
+{
+    
+
+  .topper{
+    width: 100%;
+        flex-direction: column;
+        margin-bottom: 0;
+   }
+
+  .name{
+    color: #FFFFFF;
+    height: 230px;
+    width:100%;
+   padding: 100px;
+   padding-bottom: 0;
+   }
+  .topper .model{
+    Width: 500.01px;
+    height: 90%;
+ 
+   }
+   .layout{
+    margin: 70px 200px 10px 180px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 27px;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+   
+    width: fit-content;
+    margin-left: 50px;
+}
+
+ 
+
+
+
+}
+
